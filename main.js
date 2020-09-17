@@ -16,6 +16,12 @@ if (hrs > 12) {
 if (hrs == 0) {
     hrs = 12;
 }
+// if hours <10 add zero inf front
+
+if (hrs < 10){
+    hrs = "0" + hrs;
+}
+
 //adds zero in front of seconds if < 10
 if (sec < 10){
     sec = "0" + sec;
