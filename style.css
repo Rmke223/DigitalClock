@@ -1,16 +1,17 @@
 body {
-    background-color: aqua;
+    background-color: black;
 }
 
 h1 {
     text-align: center;
     border-style: solid;
     font-size: 80px;
+    color: white;
 }
 
 #clock {
     text-align: center;
     font-size: 60px;
     background-color: black;
-    color: blanchedalmond;
+    color: white;
 }
